@@ -38,7 +38,7 @@ public class Main {
         String result = stringBuilder.substring(0, stringBuilder.lastIndexOf("+"));
         System.out.println(result + "= " + sum);
 
-        int max = 0, min = 0;
+        int max = 0;
 
         for (int temp : arrayList) {
             if (temp > max) {
@@ -46,7 +46,7 @@ public class Main {
             }
         }
 
-        min = max;
+        int min = max;
 
         for (int temp : arrayList) {
             if (temp < min) {
